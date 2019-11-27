@@ -1,0 +1,15 @@
+.necessary-title, .necessary-description{
+    text-align: center;
+}
+.necessary-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.necessary-description{
+    color: #EB5757;
+    font-size: 20px;
+}
+.necessary-link{
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.hello-page{
+  display: flex;
+}
+.block {
+    margin-bottom: 10px;
+  }
+  
+  .news-and-communications {
+    min-height: 690px;
+    margin-right: 25px;
+    max-width: 45%;
+  }
+  
+  .inportant-information {
+    min-height: 690px;
+    max-width: 45%;
+  }
+  
+  .necessary {
+    float: right;
+    margin: 0 auto;
+  }

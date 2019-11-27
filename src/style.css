@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Roboto Th';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/roboto-thin.ttf') format('truetype');
+}
+.body{
+    margin: 0;
+    font-family: Roboto Th, Verdana, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+}
+.logo{
+    margin: 5px auto;
+}
+.App-logo{
+  height: 50px;
+  cursor: pointer;
+}
+.main-menu{
+    background-color: #4A9B82;
+    margin-bottom: 10px;
+    margin: 0;
+    padding-left: 75px;
+
+}
+.main-menu button{
+    display: inline;
+    cursor: pointer;
+    padding: 13px 0;
+    width: 130px;
+    background-color: #4A9B82;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+    font-family: Roboto Th, Verdana, Tahoma, sans-serif;
+}
+.main-menu button:hover {
+    color: #EB5757;
+}
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+.content {
+    margin: 5px;
+  }
+h3{
+  color: #4A9B82;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 5px 5px;
+  padding: 0;
+}
+
+.content-menu button{
+    display: inline;
+    cursor: pointer;
+    background-color: #BFBFBF;
+    color:  #ffffff;
+    font-size: 16px;
+    min-width: 150px;
+    margin: 0;
+    padding: 11px 10px;
+    text-align: center;
+    border-color: rgb(223, 223, 223);
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+}
+.content-menu button:hover, 
+.content-menu button:focus, 
+.content-menu button--active {
+  background-color: #EB5757;
+  border-color: rgb(223, 223, 223);
+}
+
+  
+  
